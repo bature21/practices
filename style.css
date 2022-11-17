@@ -1,0 +1,71 @@
+.header{
+    height: 300px;
+    background-color: blue;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.col {
+    width: 24%;
+    height: 300px;
+    box-shadow: 2px 3px 5px lightgrey;
+}
+.col1{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.col2{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.col3{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.col4{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.col5{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.col6{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.col7{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.col8{
+    background: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+
+@media screen and(max-width:600px) {
+    .row{
+        flex-direction: column;
+    }
+}
+    
